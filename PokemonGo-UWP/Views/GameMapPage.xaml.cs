@@ -50,7 +50,7 @@ namespace PokemonGo_UWP.Views
                             AllowCaching = true
                         };                    
 
-                    GameMapControl.Style = MapStyle.None;
+                    GameMapControl.Style = MapStyle.Road;
                     GameMapControl.TileSources.Clear();
                     GameMapControl.TileSources.Add(new MapTileSource(mapBoxTileSource)
                     {
